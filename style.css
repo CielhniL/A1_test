@@ -1,0 +1,318 @@
+/* ================== RESET / BASE ================== */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;         
+  background-color: #101010;
+  font-family: "Lato", sans-serif;
+}
+
+/* ================== SCROLL WRAPPER ================== */
+.responsive-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: auto;       /* bật scroll ngang */
+  overflow-y: hidden;     /* tắt scroll dọc */
+  position: relative;
+  overscroll-behavior: none;
+  position: relative;
+}
+
+/* ================== CANVAS CONTAINER ================== */
+.v72_2 {
+  position: absolute;
+  top: 0; left: 0;
+  width: 1920px;            /* kích thước thiết kế gốc */
+  height: 1080px;
+  background: #101010; 
+}
+
+/* ================== BACKGROUND TEXTURE ================== */
+.v72_59 {
+  position: absolute;
+  top: 0;
+  left: 2582px;          
+  height: 150vh;      
+  width: auto;        
+  overflow: hidden;   
+  opacity: 0.2;       
+  z-index: -1;  
+}
+
+.v72_59 img {
+  height: 150vh;      
+  width: auto;        
+  object-fit: cover;  
+  display: block;
+}
+
+/* ================== TEXT BLOCKS ================== */
+.v72_50 {
+  width: 346px;
+  color: rgb(165, 165, 165);
+  position: absolute;
+  top: 990px;
+  left: 60px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+}
+
+.v72_51 {
+  width: 346px;
+  color: rgb(165, 165, 165);
+  position: absolute;
+  top: 990px;
+  left: 975px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+}
+
+.v72_52 {
+  width: 264px;
+  color: rgb(165, 165, 165);
+  position: absolute;
+  top: 58px;
+  left: 518px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+}
+
+.v72_53 {
+  width: 287px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 331px;
+  left: 31px;
+  font-weight: 100;
+  font-size: 500px;
+  text-align: left;
+}
+
+.v72_54 {
+  width: 72px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 331px;
+  left: 746px;
+  font-weight: 100;
+  font-size: 500px;
+  text-align: left;
+}
+
+.v72_55 {
+  width: 72px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 331px;
+  left: 1011px;
+  font-weight: 100;
+  font-size: 500px;
+  text-align: left;
+}
+
+.v72_56 {
+  width: 159px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 447px;
+  left: 470px;
+  font-family: "League Gothic", sans-serif;
+  font-size: 500px;
+  text-align: left;
+}
+
+.v72_57 {
+  width: 175px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 447px;
+  left: 1200px;
+  font-family: "League Gothic", sans-serif;
+  font-size: 500px;
+  text-align: left;
+}
+
+.v72_58 {
+  width: 199px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 640px;
+  left: 1662px;
+  font-weight: 400;
+  font-size: 32px;
+  text-align: left;
+}
+
+.v72_60 {
+  width: 544px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 19px;
+  left: 1980px;
+  font-weight: 300;
+  font-size: 128px;
+  text-align: left;
+}
+
+.v72_61 {
+  width: 428px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 300px;
+  left: 1980px;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: left;
+}
+
+.v72_62 {
+  width: 602px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 174px;
+  left: 1980px;
+  font-weight: 300;
+  font-size: 32px;
+  text-align: left;
+}
+
+.v72_63 {
+  width: 371px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 717px;
+  left: 2666px;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: left;
+}
+
+.v72_64 {
+  width: 656px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 843px;
+  left: 2667px;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: left;
+}
+
+.v72_65 {
+  width: 718px;
+  color: rgb(215, 215, 215);
+  position: absolute;
+  top: 156px;
+  left: 4068px;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: left;
+}
+
+.v72_66 {
+  width: 229px;
+  color: rgb(165, 165, 165);
+  position: absolute;
+  top: 58px;
+  left: 60px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+}
+
+.v72_67 {
+  width: 200px;
+  color: rgb(165, 165, 165);
+  position: absolute;
+  top: 63px;
+  left: 1661px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+}
+
+.v74_6 {
+  width: 78px;
+  color: rgb(165, 165, 165);
+  position: absolute;
+  top: 82px;
+  left: 975px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+}
+
+.v74_7 {
+  width: 209px;
+  color: rgb(165, 165, 165);
+  position: absolute;
+  top: 82px;
+  left: 1059px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+}
+
+.v74_8 {
+  width: 140px;
+  color: rgb(165, 165, 165);
+  position: absolute;
+  top: 56px;
+  left: 975px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+}
+
+.call_action {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+#p5-holder {
+  position: absolute;
+  top: 0;
+  left: 5069px;
+  width: 1920px;
+  height: 1080px;
+  pointer-events: none;
+}
+
+/* ================== FIXED FOOTER ================== */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px 40px;
+  background: rgba(0,0,0,0.2);
+  font-size: 7px;            
+  color: rgb(165,165,165);
+}
+
+
+.footer .v72_50,
+.footer .v72_51 {
+  position: static;
+  top: auto;
+  left: auto;
+  margin: 10px;
+}
+
+.v72_53, .v72_54, .v72_55, .v72_56, .v72_57 {
+  display: inline-block;
+}
+
